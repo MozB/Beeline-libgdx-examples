@@ -1,0 +1,15 @@
+apply plugin: "java"
+
+sourceCompatibility = 1.8
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+sourceSets.main.java.srcDirs = [ "src/" ]
+sourceSets.test.java.srcDirs = [ "test/"]
+//
+//repositories {
+//    maven { url 'https://jitpack.io' }
+//}
+//
+//dependencies {
+//    compile 'com.github.MozB:Beeline-libgdx:master-SNAPSHOT' //see above, github version only used if substitution is commented out
+//}
