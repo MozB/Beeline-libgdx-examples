@@ -5,7 +5,7 @@ Beeline-libgdx is a library utilising Scene2D framework in libgdx that is intend
 Find out more - https://github.com/MozB/Beeline-libgdx
 
 ## Examples
-All examples should be run with the working directory set to *projectRoot/android/assets*
+**Important:** All examples should be run with the working directory set to **projectRoot/android/assets**
 ### Hello world! ###
 Prints a logo and text to the screen with minimal code, project ready to be deployed on Android or tested on Desktop using `BeelineActor` and `BeelineLabel`.
 
