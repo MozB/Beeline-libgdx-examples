@@ -75,7 +75,7 @@ project(":core") {
     apply plugin: "java"
 
     dependencies {
-        compile ('com.github.MozB:Beeline-libgdx:master-SNAPSHOT') { changing = true }
+        compile ('com.github.MozB:Beeline-libgdx:0.2.2') { changing = true }
 
         testCompile group: 'junit', name: 'junit', version: '4.13'
         testCompile "org.mockito:mockito-core:1.+"
