@@ -15,7 +15,7 @@ Creates three nine patch buttons using Beeline-libgdx nine patch builder. The 1s
 
 Main class: `org.beelinelibgdx.examples.actorsninepatches.DesktopLauncher`
 ### Save game ###
-Creates a save game object that saves a single integer that can be incremented by click. The save game object can be saved and loaded by the other buttons on screen using `BeelineGame`.
+Creates a save game object that saves a single integer that can be incremented by click. The game is automatically saved and the value in the counter persisted in reruns of the game, uses `BeelineGame`.
 
 Main class: `org.beelinelibgdx.examples.savegame.DesktopLauncher`
 ### Model actor contract ###
