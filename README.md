@@ -18,7 +18,7 @@ Main class: `org.beelinelibgdx.examples.actorsninepatches.DesktopLauncher`
 Creates a save game object that saves a single integer that can be incremented by click. The game is automatically saved and the value in the counter persisted in reruns of the game, uses `BeelineGame`.
 
 Main class: `org.beelinelibgdx.examples.savegame.DesktopLauncher`
-### Model actor contract (Coming soon) ###
+### Model actor contract ###
 Creates some simple random agents that move around the screen randomly and exist for a finite amount of time. The addition and removal of actors are handled completely by the Beeline-libgdx framework using the `ModelAndActorVisibilityContract` with minimal code.
 
 Main class: `org.beelinelibgdx.examples.modelactorcontract.DesktopLauncher`
