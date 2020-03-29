@@ -11,7 +11,7 @@ Find out more - https://github.com/MozB/Beeline-libgdx
 ## Examples
 **Important:** All examples should be run with the working directory set to **projectRoot/android/assets**
 ### Hello world! ###
-Prints a logo and text to the screen with minimal code, project ready to be deployed on Android or tested on Desktop using `BeelineActor` and `BeelineLabel`.
+Prints a logo and text to the screen with minimal code and only one core project class! Project ready to be deployed on Android or tested on Desktop. Uses `BeelineActor` and `BeelineLabel`.
 
 Core class: [core/src/org/beelinelibgdx/examples/helloworld/HelloWorldGame.java](core/src/org/beelinelibgdx/examples/helloworld/HelloWorldGame.java)
 
