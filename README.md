@@ -21,6 +21,6 @@ Creates a save game object that saves a single integer that can be incremented b
 
 Main class: `org.beelinelibgdx.examples.savegame.DesktopLauncher`
 ### Model actor contract ###
-Creates some simple random agents that move around the screen randomly and exist for a finite amount of time. The addition and removal of actors are handled completely by the Beeline-libgdx framework using the `ModelAndActorVisibilityContract` with minimal code.
+Creates some simple random agents that move around the screen randomly and exist for a finite amount of time. The addition and removal of actors are handled completely by the Beeline-libgdx framework using the `ModelAndActorVisibilityContract` with minimal code, whenever a model is added, the associated actor is automatically created and also destroyed when the model is removed from the game. Reducing boilerplate code and making your life as a developer easier.
 
 Main class: `org.beelinelibgdx.examples.modelactorcontract.DesktopLauncher`
